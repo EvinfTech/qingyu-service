@@ -1,0 +1,26 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <option name="scopesOrder">
+      <list>
+        <option value="All Changed Files" />
+        <option value="Generated Files" />
+        <option value="Open Files" />
+        <option value="Project Files" />
+        <option value="Scratches and Consoles" />
+        <option value="Tests" />
+      </list>
+    </option>
+    <inspection_tool class="GoImportUsedAsName" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="GoUnhandledErrorResult" enabled="true" level="WARNING" enabled_by_default="true">
+      <functions>
+        <function importPath="fmt" name="Print" />
+        <function importPath="fmt" name="Errorf" />
+        <function importPath="fmt" name="Println" />
+        <function importPath="math/rand" name="Read" />
+        <function importPath="fmt" name="Printf" />
+        <function importPath="encoding/json" name="Unmarshal" />
+      </functions>
+    </inspection_tool>
+  </profile>
+</component>

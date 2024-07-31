@@ -23,15 +23,15 @@
 
 需要微信登录
 
-![img](C:\Users\10186\AppData\Local\Temp\ksohtml34944\wps1.jpg) 
+![img](README.assets/login.jpg) 
 
-![img](README.assets/wps1-1710830298762.jpg)
+![img](README.assets/weixinlogin.jpg)
 
 #### 2. 首页
 
 可以进行场地、活动的分类，进行查看
 
-![img](file:///C:\Users\10186\AppData\Local\Temp\ksohtml34944\wps2.jpg) 
+![img](README.assets/index.jpg) 
 
 #### 3. 预约界面
 

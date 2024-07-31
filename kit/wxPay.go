@@ -41,7 +41,8 @@ func WxPayInit() {
 	var err error
 	mchPrivateKey, err = utils.LoadPrivateKeyWithPath("./apiclient_key.pem")
 	if err != nil {
-		logKit.Log.Println("商户私钥加载失败:load merchant private key error")
+		logKit.Log.Errorln("商户私钥加载失败:load merchant private key error")
+		return
 	}
 
 	ctx = context.Background()
@@ -51,7 +52,7 @@ func WxPayInit() {
 	}
 	client, err = core.NewClient(ctx, opts...)
 	if err != nil {
-		log.Fatalf("new wechat pay client err:%s", err)
+		logKit.Log.Errorln("new wechat pay client err:%s", err)
 		fmt.Println("商户私钥初始化失败:" + err.Error())
 	}
 

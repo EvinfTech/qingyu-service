@@ -36,7 +36,7 @@ func GetAccessToken() {
 
 // AccessTokenInit 30分钟更新一次
 func AccessTokenInit() {
-	for true {
+	for {
 		GetAccessToken()
 		time.Sleep(30 * time.Minute)
 

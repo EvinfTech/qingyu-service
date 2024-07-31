@@ -1,6 +1,4 @@
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
-git.evinf.cn/project/ygglib/ouid v0.0.0-20221125013339-53378853d2df h1:yr52iVaNGLGOMpfz7fCQlMyXlOJv2q3dc77BRbzRGNA=
-git.evinf.cn/project/ygglib/ouid v0.0.0-20221125013339-53378853d2df/go.mod h1:K0colGYi6fwJMequHfhOuBeeZ+C8wPGWEt0fcgePbik=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
 github.com/agiledragon/gomonkey v2.0.2+incompatible h1:eXKi9/piiC3cjJD1658mEE2o3NjkJ5vDLgYjCQu0Xlw=
 github.com/agiledragon/gomonkey v2.0.2+incompatible/go.mod h1:2NGfXu1a80LLr2cmWXGBDaHEjb1idR6+FVlX5T3D9hw=

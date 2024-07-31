@@ -63,7 +63,7 @@ func PhoneCode(phone string, code string) (_err error) {
 	if _err != nil {
 		return _err
 	}
-
+	//todo 这里需要将TemplateCode修改为自己的短信摸板
 	sendSmsRequest := &dysmsapi20170525.SendSmsRequest{
 		SignName:      tea.String(conf.Config.SignName),
 		TemplateCode:  tea.String("SMS_465319325"),

@@ -3,15 +3,16 @@ package dao
 import (
 	"errors"
 	"fmt"
-	"gorm.io/driver/mysql"
-	"gorm.io/gorm"
-	"gorm.io/gorm/logger"
-	"gorm.io/gorm/schema"
 	"log"
 	logKit "qiyu/logger"
 	"qiyu/models"
 	"qiyu/util"
 	"time"
+
+	"gorm.io/driver/mysql"
+	"gorm.io/gorm"
+	"gorm.io/gorm/logger"
+	"gorm.io/gorm/schema"
 )
 
 // DB 本方法内不能使用util工具
@@ -43,7 +44,7 @@ func init() {
 		},
 	)
 
-	dsn := "root:woshimima@tcp(127.0.0.1:3306)/qiyu_open?charset=utf8mb4&parseTime=True&loc=Local"
+	dsn := "root:woshimima@tcp(localhost:3306)/qingyu_open?charset=utf8mb4&parseTime=True&loc=Local"
 	DB, err = gorm.Open(mysql.Open(dsn), &gorm.Config{
 		Logger: newLogger,
 		NamingStrategy: schema.NamingStrategy{
